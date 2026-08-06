@@ -1,0 +1,28 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    role="img"
+    aria-label="RK Hospitality Studio"
+>
+    <rect
+        width="64"
+        height="64"
+        rx="12"
+        fill="#202421"
+    />
+    <path
+        d="M17 16V48M17 32H31M31 16L19 32L32 48"
+        fill="none"
+        stroke="#F7F4EE"
+        stroke-width="5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+    <path
+        d="M39 18H51M45 18V46"
+        fill="none"
+        stroke="#B18A55"
+        stroke-width="4"
+        stroke-linecap="round"
+    />
+</svg>
