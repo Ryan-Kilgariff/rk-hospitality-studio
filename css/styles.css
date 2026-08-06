@@ -761,21 +761,6 @@ p {
     margin: 0;
     color: rgba(255, 255, 255, 0.78);
 }
-.case-study-showcase-placeholder {
-    min-height: 680px;
-    display: grid;
-    place-items: center;
-    padding: 2rem;
-    background:
-        linear-gradient(
-            145deg,
-            rgba(102, 112, 91, 0.82),
-            rgba(32, 36, 33, 0.96)
-        );
-    box-shadow: var(--shadow-soft);
-    color: rgba(255, 255, 255, 0.82);
-    text-align: center;
-}
 .case-study-two-column {
     display: grid;
     grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
@@ -2066,9 +2051,6 @@ p {
     .responsive-feature-grid,
     .outcome-grid {
         grid-template-columns: 1fr;
-    }
-    .case-study-showcase-placeholder{
-        min-height: 380px;
     }
     .website-structure-list > div {
         grid-template-columns: 1fr;
