@@ -313,15 +313,6 @@ p {
 .hero-visual {
     position: relative;
 }
-.hero-visual::before {
-    position: absolute;
-    top: -2rem;
-    right: -2rem;
-    width: 75%;
-    height: 75%;
-    border: 1px solid var(--colour-brass);
-    content: "";
-}
 /* --------------------------------------------------
    Cards
 -------------------------------------------------- */
@@ -1165,33 +1156,6 @@ p {
 }
 .about-hero-visual {
     position: relative;
-}
-.about-hero-visual::before {
-    position: absolute;
-    top: -2rem;
-    right: -2rem;
-    width: 75%;
-    height: 75%;
-    border: 1px solid var(--colour-brass);
-    content: "";
-}
-.about-image-placeholder,
-.founder-image-placeholder {
-    position: relative;
-    z-index: 1;
-    min-height: 560px;
-    display: grid;
-    place-items: center;
-    padding: 2rem;
-    background:
-        linear-gradient(
-            145deg,
-            rgba(102, 112, 91, 0.82),
-            rgba(32, 36, 33, 0.96)
-        );
-    box-shadow: var(--shadow-soft);
-    color: rgba(255, 255, 255, 0.82);
-    text-align: center;
 }
 .about-introduction-grid,
 .principles-grid,
@@ -2115,14 +2079,6 @@ p {
     .hospitality-focus-grid,
     .approach-grid {
         grid-template-columns: 1fr;
-    }
-    .about-image-placeholder,
-    .founder-image-placeholder {
-        min-height: 380px;
-    }
-    .about-hero-visual::before {
-        top: -1rem;
-        right: -0.6rem;
     }
     .contact-options-grid {
         grid-template-columns: 1fr;
