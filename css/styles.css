@@ -2009,12 +2009,13 @@ p {
         position: static;
         max-width: 760px;
     }
-}
-@media (max-width: 1000px) and (min-height: 700px) {
-    .primary-navigation {
-        position: static;
-        max-height: none;
-        overflow: visible;
+    .site-header {
+    min-height: auto;
+    }
+    .header-inner {
+        min-height: 76px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 }
 /* --------------------------------------------------
@@ -2023,9 +2024,6 @@ p {
 @media (max-width: 650px) {
     .container {
         width: min(calc(100% - 1.5rem), var(--container-width));
-    }
-    .header-inner {
-        min-height: 74px;
     }
     .brand-name {
         font-size: 1.12rem;
@@ -2146,6 +2144,9 @@ p {
     .legal-details-list > div {
         grid-template-columns: 1fr;
         gap: 0.35rem;
+    }
+    .header-inner {
+        min-height: 68px;
     }
 }
 /* --------------------------------------------------
